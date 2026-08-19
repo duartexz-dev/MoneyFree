@@ -12,6 +12,8 @@ let saldoText = document.getElementById("saldo")
 let saldoText2 = document.getElementById("saldo2")
 let saldoInicial = localStorage.getItem("saldo")
 
+
+
 saldoText.innerText = saldoInicial
 saldoText2.innerText = saldoInicial
 
